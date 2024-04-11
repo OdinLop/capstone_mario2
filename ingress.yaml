@@ -4,7 +4,7 @@ metadata:
  name: mario-ingress
 spec:
  rules:
-  - host: localhost
+  - host: localhost/mario
     http:
       paths:
       - path: /
